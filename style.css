@@ -1,9 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container-card{
     display: inline-block;
     width: 300px;
     vertical-align: top;
     margin-right: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
 }
 .car-image{
     width: 300px;
@@ -11,4 +16,40 @@
 }
 .search-bar{
     display: block;
+    margin: 10px;
+}
+.profile-image-container, .video-description{
+    display: inline-block;
+}
+.profile-image-container{
+    width: 50px;
+    vertical-align: top;
+}
+
+.video-description{
+    width: 200px;
+}
+
+.profile-pic{
+    width: 50px;
+    border-radius: 25px;
+}
+
+.video-details, .vid-tumbnail{
+    margin: 10px;
+}
+
+.vid-title, .channel-name, .vid-details{
+    padding-left: 10px;
+}
+.vid-title, .channel-name{
+    margin-bottom: 12px;
+}
+.vid-title{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.channel-name, .vid-details{
+    color: rgb(79, 79, 79);
 }
