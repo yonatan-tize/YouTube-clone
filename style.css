@@ -1,55 +1,51 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.container-card{
-    display: inline-block;
-    width: 300px;
-    vertical-align: top;
-    margin-right: 15px;
-    font-family: "Roboto",Arial, Helvetica, sans-serif;
-}
-.car-image{
-    width: 300px;
-    height: 169px;
+p{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .search-bar{
     display: block;
     margin: 10px;
 }
-.profile-image-container, .video-description{
-    display: inline-block;
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 40px;
 }
-.profile-image-container{
-    width: 50px;
-    vertical-align: top;
+
+.tumbnail-row{
+    margin-bottom: 15px;
+}
+.tumbnail-image{
+    border-radius: 16px;
+    width: 100%;
+}
+
+.video-details-row{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+.profile-pic{
+    width: 100%;
+    border-radius: 25px;
+    background-color: transparent;
 }
 
 .video-description{
-    width: 200px;
-}
-
-.profile-pic{
-    width: 50px;
-    border-radius: 25px;
-}
-
-.video-details, .vid-tumbnail{
-    margin: 10px;
-}
-
-.vid-title, .channel-name, .vid-details{
     padding-left: 10px;
 }
-.vid-title, .channel-name{
-    margin-bottom: 12px;
-}
+
 .vid-title{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 12px;
 }
-
 .channel-name, .vid-details{
-    color: rgb(79, 79, 79);
+    color: rgb(99, 97, 97);
+}
+.channel-name, .vid-details{
+    margin-bottom: 8px;
 }
