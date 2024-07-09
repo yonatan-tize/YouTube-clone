@@ -46,6 +46,6 @@ p{
 .channel-name, .vid-details{
     color: rgb(99, 97, 97);
 }
-.channel-name, .vid-details{
+.channel-name{
     margin-bottom: 8px;
 }
