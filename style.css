@@ -3,10 +3,6 @@ p{
     margin-top: 0;
     margin-bottom: 0;
 }
-.search-bar{
-    display: block;
-    margin: 10px;
-}
 
 .video-grid{
     display: grid;
