@@ -5,8 +5,8 @@
     bottom: 0px;
     background-color: white;
     width: 80px;
+    z-index: 200;
 }
-
 
 .sidebar-link{
     height: 76px;
@@ -25,5 +25,5 @@
     margin-bottom: 3px;
 }
 .sidebar-link div{
-    font-size: 12px;
+    font-size: 11px;
 }

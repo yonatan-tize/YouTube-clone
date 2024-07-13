@@ -98,8 +98,27 @@
 .youtube-app-icon{
     height: 30px;
 }
+
+.notification-section{
+    position: relative;
+    /* background-color: aqua; */
+}
 .notification-icon{
     height: 30px;
+}
+.notification-count{
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    position: absolute;
+    background-color: red;
+    color: white;
+    top: -2px;
+    right: -3px;
+    /* border: 1px solid rgb(81, 79, 79); */
+    border-radius: 15px;
+    padding: 2px 6px;
+    /* margin-left: -5px; */
+
 }
 .profile-icon{
     height: 40px;
