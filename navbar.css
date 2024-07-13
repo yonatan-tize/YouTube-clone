@@ -1,0 +1,29 @@
+.nav-bar{
+    position: fixed;
+    top: 65px;
+    left: 0px;
+    bottom: 0px;
+    background-color: white;
+    width: 80px;
+}
+
+
+.sidebar-link{
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-link:hover{
+    background-color: rgb(245, 245, 245);
+}
+.nav-bar-img{
+    height: 30px;
+    margin-bottom: 3px;
+}
+.sidebar-link div{
+    font-size: 12px;
+}

@@ -1,11 +1,14 @@
-*{
-    margin: 0;
-}
+
 .header{
     display: flex;
     height: 65px;
     justify-content: space-between;
-    background-color: antiquewhite;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    right: 0px;
+    border-bottom: 1px solid rgb(211, 208, 208);
 }
 .left-section{
     display: flex;
