@@ -19,10 +19,19 @@ p{
 
 .tumbnail-row{
     margin-bottom: 15px;
+    position: relative;
 }
 .tumbnail-image{
     border-radius: 16px;
     width: 100%;
+}
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 13px;
+    right: 10px;
+    padding: 2px;
 }
 
 .video-details-row{
